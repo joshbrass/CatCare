@@ -1,0 +1,225 @@
+body{
+
+}
+
+#title{
+  background-color: #023e8a;
+  color: #fff
+}
+h1{
+
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  text-emphasis: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 80%;
+  position: absolute;
+  right: 30%;
+  border-radius: 20px;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #023e8a;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: rgb(88, 139, 215);
+
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color:#023e8a;
+  color: #fff
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+#press{
+  background-color:#023e8a;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* gallery */
+.gallery-heading{
+  font-size: 75px;
+  text-align: center;
+  font-weight: 800;
+  color: #092635;
+}
+
+.gallery-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(500px,2fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.gallery-item{
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+
+/* contact form */
+.contact-me{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 40px;
+  color: #023e8a;
+}
+
+.contact-container form {
+  max-width: 50em;
+  margin-bottom: 3em;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-box input,
+form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 18px;
+  color: #ffff;
+  background: #023e8a;
+  border-radius: .8rem;
+  margin: 1rem 0;
+  resize: none;
+
+}
+
+.btn1 {
+  padding: 15px 28px;
+  background: #023e8a;
+  color: #ffff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: o.3s ease;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #1764c7;
+  color: #fff;
+  border: 2px solid #020c1b;
+}
+
+
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+
+#cta{
+  background-color:#023e8a;
+  text-align:center;
+  padding: 100px;
+  color: #fff;
+
+
+}
+
+.cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px
+}
